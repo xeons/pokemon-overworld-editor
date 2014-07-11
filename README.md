@@ -1,5 +1,6 @@
 Pokémon Overworld Sprite Editor
 ===============================
+This is a Pokémon Overworld Sprite Editor for the GameBoy Advance series of games written in Visual Basic 6.
 
 Sprite Navigation
 -----------------
@@ -10,24 +11,6 @@ Right now there is no way of determining how many
 frames each sprite has, so if you go over how many
 frames are actually in a sprite, it will start reading
 from the sprite # after it.
-
-Sprite Header #1 Info
----------------------
-Sprite #: Current sprite you are on.
-Starter Bytes: First two bytes in the header, always FFFF.
-Pallete #: This is just the numerical index of the Pallete. There are around 20+ sprite palletes in the game.
-Unknown Data: Self-Explanitory, its in the header, and I have no idea what it does?
-Sprite Data Size: The number of bytes a the sprite takes
-Width and Height: Self-explanitory.
-Unknown Data 2: More data I have no clue what it does.
-Unknown Pointer 1, 2, 3, and 4 I have no idea what kind of data these pointers point to. I believe 2 has to do with tile arrangment.
-Sprite Pointer: Points to Sprite Header #2
-
-Sprite Header #2 Info
----------------------
-Sprite Pointer: Actual pointer to the sprite image data.
-Data Size: another specifier of datasize
-Unknown 1: As the name says!
 
 
 Drawing Canvas Features
