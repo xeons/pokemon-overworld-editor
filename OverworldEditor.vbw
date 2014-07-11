@@ -1,0 +1,4 @@
+frmOverworldEditor = 99, 12, 892, 426, , 135, -15, 928, 481, C
+modGraphicEditing = 110, 29, 925, 419, 
+frmAbout = 44, 58, 862, 423, , 22, 29, 840, 394, C
+clsCommonDialog = 0, 0, 861, 286, Z
